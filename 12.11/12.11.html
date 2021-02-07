@@ -1,0 +1,113 @@
+<!-- alt+shift+F 可以自動排版 -->
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <!--給電腦看的內容-->
+    <title>教你如何搖擺</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style標籤用來裝CSS，以CSS美化網頁(放head裡面!!) -->
+    <style>
+        /*選擇器
+        {
+            屬性名稱:數值；
+        }
+        標籤選擇器 ->直接輸入標籤(tag)名稱
+        */
+        h1 {
+            width: 200px;
+            height: 50px;
+            background-color: aquamarine;
+        }
+
+        div {
+            background-color: #FFF8DC;
+        }
+
+        /*id選擇器(是一個網頁唯一的名稱，留給JS抓的)
+        {
+            屬性名稱:數值；
+        }
+        標籤選擇器 ->輸入#加上標籤(tag)名稱
+        */
+        #shake {
+            background-color: cornflowerblue;
+        }
+
+        /*class選擇器
+        {
+            屬性名稱:數值；
+        }
+        標籤選擇器 ->輸入.加上class名稱
+        */
+        .sshake {
+            /* 背景顏色 */
+            background-color: #FF8040;
+            /* 寬 */
+            width: 100px;
+            /* 高 */
+            height: 100px;
+            /* 邊框圓角 */
+            border-radius: 50%;
+        }
+
+        /* 後代選擇器 */
+        /* A B ，父層 子層 */
+
+        /* 屬性選擇器 */
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <!--給使用者看的內容-->
+        <h1>搖擺搖起來~~</h1>
+        <br><!-- 換行 -->
+        <img src="https://pic.17qq.com/uploads/ddpbeoipbz.jpeg" alt="">
+        <br><!-- 換行 -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8f7wj_RcqYk" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <br><!-- 換行 -->
+        <a href="https://www.youtube.com/watch?v=8f7wj_RcqYk&ab_channel=GoodClipsDaily">線上教學</a>
+        <!-- id設定標籤名稱 -->
+        <!-- 開頭標籤的標籤名稱後 -->
+        <!-- 
+            id取名注意事項
+            0.不要跟其他重複
+            1.不要特殊符號，僅接受_或-
+            2.不要中文
+            3.以英文開頭，不要用數字開頭
+        -->
+        <h2 id="shake">左搖右擺~</h2>
+
+        <!-- class不要跟其他人的名稱重複 -->
+        <!-- 
+            id取名注意事項
+            1.不要特殊符號，僅接受_或-
+            2.不要中文
+            3.以英文開頭，不要用數字開頭
+        -->
+        <div class="sshake">
+            <h3>
+                我就繼續搖
+            </h3>
+        </div>
+        <div class="sshake">
+            <h4>
+                前搖後擺
+            </h4>
+        </div>
+        <div class="sshake">上搖下擺</div>
+        <div class="sshake">搖搖擺擺</div>
+        <div class="sshake">擺擺搖搖</div>
+
+
+        <!--style標籤內寫CSS-->
+    </div>
+</body>
+<!--(按ctrl+/可以快速註解)-->
+
+</html>
