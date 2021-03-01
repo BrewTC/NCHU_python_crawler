@@ -1,1 +1,1 @@
-# Python_crawler
+# 使用Python學習基本操作以及網路爬蟲的技能
